@@ -1,0 +1,67 @@
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    background: #1e1e2f;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+    width: 360px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+}
+
+input[type="number"] {
+    width: 60px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    text-align: center;
+}
+
+.discounts {
+    margin: 10px 0;
+}
+
+button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #2ec4b6;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5be7d3;
+}
+
+.receipt {
+    background: #000;
+    color: #0f0;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    min-height: 120px;
+    white-space: pre-line;
+}

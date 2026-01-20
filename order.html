@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Order Calculator</title>
+    <link rel="stylesheet" href="order_style.css">
+</head>
+<body>
+<div class="calculator">
+    <h2>🛒 Online Order</h2>
+
+    <div class="product">Apple Mac (₱55000) <input type="number" id="q0" value="0" min="0"></div>
+    <div class="product">Razor Headset (₱2999) <input type="number" id="q1" value="0" min="0"></div>
+    <div class="product">Fury cube Mouse (₱500) <input type="number" id="q2" value="0" min="0"></div>
+    <div class="product">Attack Shark Keyboard (₱2500) <input type="number" id="q3" value="0" min="0"></div>
+
+    <div class="discounts">
+        <label><input type="checkbox" id="vip"> VIP Member (5% extra discount)</label><br>
+        <label><input type="checkbox" id="senior"> Senior Citizen (10% extra discount)</label>
+    </div>
+
+    <button onclick="processOrder()">Checkout</button>
+
+    <div id="receipt" class="receipt">Receipt will appear here...</div>
+</div>
+
+<script src="order_script.js"></script>
+</body>
+</html>
